@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>Tailwind Conceal</title>
+    </head>
+    <body class="flex">
+
+        <section class="flex items-center bg-stone-200 h-screen w-3/5 min-[320px]:w-full">
+            <div class="margin-auto mx-auto h-96 w-96">
+                <a href="./index.html" class="object-center">
+                    <img ng-src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg">
+                </a>
+                <form class="flex flex-col py-2" method="post">
+                    <input class="w-auto rounded-t-lg my-2 py-1" type="text" name="username" placeholder="   Email">
+                    <input class="w-auto rounded-b-lg my-2 py-1" type="password" name="password"
+                        placeholder="   Password">
+                    <div>
+                        <div class="pt-2 text-sm flex flex-row justify-evenly">
+                                <input class="ml-5" type="checkbox" name="rememberMe" value="1">
+                                <label class="py-3" for="rememberMe">Remember Me</label>
+
+                                <a class="py-3" href="https://app.counseal.com/site/havingTrouble">(HavingTrouble?)</a>
+                            <button class= "bg-sky-500 hover:bg-blue-700 text-grey font-thin py-.5 px-3 rounded-br-lg" type="submit">Login</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="bg-red-500 h-screen w-1/2 min-[320px]:w-0">
+            <img class="object-cover h-screen w-500" src="./images/sidePic.jpg"
+                alt="background">
+        </section>
+
+    </body>
+</html>
+
